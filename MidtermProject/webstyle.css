@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+body {
+    background-color: #CCD9E2;
+    margin: 0px;
+}
+
+header {
+    background-image: url("image/background_header.jpg");
+    background-size: cover;
+    text-align: center;
+    line-height: 50vh;
+    font-size: 3cm;
+    font-weight: 600;
+    color: #6F4849;
+    min-height: 100vh;
+    margin: 0%;
+    padding: 50px;
+}
+
+nav {
+    background-color: #C3CBD6;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+}
+
+nav.banner {
+    background-color: #C3CBD6;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+    clear: both;
+    position: fixed;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #e7bea5;
+    color: rgb(81, 198, 237);
+
+}
+
+footer {
+    background-color: #285185;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    padding: 10px;
+    margin: 20px 10px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.card p {
+    font-family: 'Handlee', cursive;
+}
+
+.title {
+    margin: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 10mm;
+    font-weight: bolder;
+}
+
+.profile {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+}
+
+.profile p {
+    font-family: 'Handlee', cursive;
+}
+
+
+
+.profile img {
+    height: auto;
+    width: 100%
+}
+
+.button h3 {
+    font-family: 'Handlee', cursive;
+}
+
+.button:hover .hover {
+    display: block;
+
+}
+
+li h3:hover {
+    color: #285185;
+    font-size: xx-large;
+}
+
+.hover {
+    display: none;
+}
+
+.hover img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.hover h2 {
+    font-size: x-large;
+    font-family: 'Handlee', cursive;
+}
+
+
+
+.box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(2, 5, 4);
+}
+
+
+
+.java {
+    animation-name: java;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    width: 60%;
+
+    background-image: url(image/java\ sticker2.png);
+    background-position: 1%;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    text-align: right;
+
+    font-family: 'Handlee', cursive;
+
+}
+
+@keyframes java {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+.python {
+    animation-name: python;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    width: 60%;
+
+    background-image: url(image/java\ sticker2.png);
+    background-position: 0px;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    text-align: right;
+    color: #285185;
+    font-family: 'Handlee', cursive;
+}
+
+@keyframes python {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%
+    }
+}
+
+.english {
+    animation-name: english;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    width: 80%;
+
+    background-image: url(image/java\ sticker2.png);
+    background-position: 0px;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    text-align: right;
+    color: #285185;
+    font-family: 'Handlee', cursive;
+}
+
+@keyframes english {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+.german {
+    animation-name: german;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    width: 10%;
+
+    background-image: url(image/java\ sticker2.png);
+    background-position: 0px;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    text-align: right;
+    color: #285185;
+    font-family: 'Handlee', cursive;
+}
+
+@keyframes german {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 10%
+    }
+}
+
+.taiwanese {
+    animation-name: taiwanese;
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+    width: 100%;
+
+    background-image: url(image/java\ sticker2.png);
+    background-position: 0px;
+    animation-iteration-count: 2;
+    border-radius: 10px;
+    text-align: right;
+    color: #285185;
+    font-family: 'Handlee', cursive;
+}
+
+@keyframes taiwanese {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.gridbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.boxitem {
+    text-align: center;
+    padding: 20px;
+    border: 10px #CCD9E2;
+    border-style: double;
+
+    border-radius: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.ydaitem {
+    padding: 10px;
+}
+
+.germany {
+    position: relative;
+    margin: 10px auto;
+    width: 300px;
+    height: 200px;
+}
+
+.germany img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 2s;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.germany img:first-child {
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.germany:hover img {
+    transform: rotateY(180deg);
+}
+
+.ydasmall {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: -1.5rem;
+    margin-bottom: -1.5rem;
+    border: 4px black solid;
+
+}
+
+.ydasmall img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+.ceoimg {
+    position: relative;
+    margin: 10px auto;
+    width: 250px;
+    height: 200px;
+}
+
+.ceoimg img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 2s;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.ceoimg img:first-child {
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.ceoimg:hover img {
+    transform: rotateY(180deg);
+}
+
+.international {
+    width: 310px;
+    border-radius: 20px;
+}
+
+
+.clubimg {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.clubmusicimg {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.club-txt {
+    font-family: 'Handlee', cursive;
+}
+
+.footer-txt a {
+    width: 100%;
+    height: auto;
+}
+
+.footer-txt a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #285185;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width:800px) {}
